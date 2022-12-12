@@ -59,6 +59,7 @@ html, body {
 .wrapper {
     width: 1400px;
     margin: 0 auto;
+    position: relative;
 }
 
 .main {
@@ -100,6 +101,7 @@ html, body {
     width: 600px;
     height: 350px;
     margin: 10px 0;
+    filter: brightness(70%);
 }
 
 .main-text {
@@ -324,4 +326,28 @@ a {
 
 .h {
     grid-area: h;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.gal {
+    display: inline-block;
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 20px;
+    position: sticky;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    width: 250px;
 }
